@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAI RAM RAHI INTER COLLEGE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to JAI RAM RAHI INTER COLLEGE</h1>
+        <p>Principal: Tej Pratap Singh | Contact: 8601645916</p>
+    </header><nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Welcome Message</h2>
+    <p>Jai Ram Rahi Inter College is committed to excellence in education...</p>
+    <img src="images/college-building.jpg" alt="College Building">
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Our history, mission, vision, and faculty details...</p>
+</section>
+
+<section id="admissions">
+    <h2>Admissions</h2>
+    <p>Eligibility, process, and online form...</p>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="science">Science</option>
+            <option value="commerce">Commerce</option>
+            <option value="arts">Arts</option>
+        </select>
+        
+        <button type="submit">Apply Now</button>
+    </form>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+        <img src="images/event1.jpg" alt="Event 1">
+        <img src="images/event2.jpg" alt="Event 2">
+        <img src="images/event3.jpg" alt="Event 3">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Address: XYZ Road, City, State, Pin Code</p>
+    <p>Phone: 8601645916</p>
+    <p>Email: info@jairamrahiintercollege.com</p>
+    <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2025 JAI RAM RAHI INTER COLLEGE. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
